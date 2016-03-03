@@ -16,6 +16,9 @@
 		3436E9491C87D3AD00B84254 /* SEKTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3436E9481C87D3AD00B84254 /* SEKTestView.xib */; };
 		3436E94D1C87D5EB00B84254 /* SEKView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E94C1C87D5EB00B84254 /* SEKView+Nib.swift */; };
 		3436E94F1C87D61300B84254 /* SEKView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E94E1C87D61300B84254 /* SEKView+Frame.swift */; };
+		3436E9511C88104B00B84254 /* SEKView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E9501C88104B00B84254 /* SEKView+Corner.swift */; };
+		3436E9531C8810CD00B84254 /* SEKUIImageView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E9521C8810CD00B84254 /* SEKUIImageView+Corner.swift */; };
+		3436E9551C8811BA00B84254 /* SEKUIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E9541C8811BA00B84254 /* SEKUIImage+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +27,15 @@
 		3436E92F1C87D2E700B84254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftExtensionKitDemo/Assets.xcassets; sourceTree = "<group>"; };
 		3436E9321C87D2E700B84254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3436E9341C87D2E700B84254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftExtensionKitDemo/Info.plist; sourceTree = "<group>"; };
-		3436E93D1C87D35D00B84254 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3436E93D1C87D35D00B84254 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		3436E93F1C87D35D00B84254 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3436E9461C87D3A400B84254 /* SEKTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEKTestView.swift; sourceTree = "<group>"; };
 		3436E9481C87D3AD00B84254 /* SEKTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEKTestView.xib; sourceTree = "<group>"; };
 		3436E94C1C87D5EB00B84254 /* SEKView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKView+Nib.swift"; sourceTree = "<group>"; };
 		3436E94E1C87D61300B84254 /* SEKView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKView+Frame.swift"; sourceTree = "<group>"; };
+		3436E9501C88104B00B84254 /* SEKView+Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKView+Corner.swift"; sourceTree = "<group>"; };
+		3436E9521C8810CD00B84254 /* SEKUIImageView+Corner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKUIImageView+Corner.swift"; sourceTree = "<group>"; };
+		3436E9541C8811BA00B84254 /* SEKUIImage+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKUIImage+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 			children = (
 				3436E94C1C87D5EB00B84254 /* SEKView+Nib.swift */,
 				3436E94E1C87D61300B84254 /* SEKView+Frame.swift */,
+				3436E9501C88104B00B84254 /* SEKView+Corner.swift */,
+				3436E9521C8810CD00B84254 /* SEKUIImageView+Corner.swift */,
+				3436E9541C8811BA00B84254 /* SEKUIImage+Extention.swift */,
 			);
 			path = SwiftExtensionKit;
 			sourceTree = "<group>";
@@ -198,11 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3436E9531C8810CD00B84254 /* SEKUIImageView+Corner.swift in Sources */,
 				3436E9411C87D35D00B84254 /* AppDelegate.swift in Sources */,
+				3436E9551C8811BA00B84254 /* SEKUIImage+Extention.swift in Sources */,
 				3436E94F1C87D61300B84254 /* SEKView+Frame.swift in Sources */,
 				3436E9401C87D35D00B84254 /* ViewController.swift in Sources */,
 				3436E9471C87D3A400B84254 /* SEKTestView.swift in Sources */,
 				3436E94D1C87D5EB00B84254 /* SEKView+Nib.swift in Sources */,
+				3436E9511C88104B00B84254 /* SEKView+Corner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,25 @@ class ViewController: UIViewController {
         testView.frame = CGRectMake(0, 0, 200, 200)
         testView.center = self.view.center
         self.view.addSubview(testView)
-        
+        testView.addCorner(radius: 60)
+     
+        let imageView = UIImageView()
+        let img = UIImage(named: "girl")
+        imageView.frame = CGRectMake(20, 20, 190, 220)
+        imageView.centerX = self.view.centerX
+        imageView.image = UIImage.image(img!, description: "hello SwiftExtensionKit", textColor: UIColor.redColor(), backGroudColor: UIColor.blueColor(), fontSize: 30)
+        self.view.addSubview(imageView)
+
     }
 
 }
+
+
+
+
+
+
+
+
+
 
