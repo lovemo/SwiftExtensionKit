@@ -1,12 +1,11 @@
 //
-//  UIView+Nib.swift
-//  UIViewNib
+//  SEKView+Nib.swift
+//  SwiftExtensionKitDemo
 //
 //  Created by yuantao on 16/3/3.
 //  Copyright © 2016年 momo. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public extension UIView {
@@ -51,7 +50,7 @@ public extension UIView {
                 break
             }
         }
-    return result
+        return result
     }
     
 }
