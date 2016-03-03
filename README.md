@@ -1,7 +1,7 @@
 # SwiftExtensionKit
-SwiftExtensionKit - SwiftExtensionKit is a collection of useful classes to develop Apps faster
+###SwiftExtensionKit - SwiftExtensionKit is a collection of useful classes to develop Apps faster
 
-###Welcome to join us in the maintenance of the project
+Welcome to join us in the maintenance of the project
 
 ===
 usage:
