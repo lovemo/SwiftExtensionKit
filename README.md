@@ -3,6 +3,13 @@ SwiftExtensionKit - SwiftExtensionKit is a collection of useful classes to devel
 
 ====
 
+usage:
+```
+  pod 'SwiftExtensionKit'
+```
+
+===
+
 ##SwiftExtensionKit
 - SEKView+Frame
 - SEKView+Nib
