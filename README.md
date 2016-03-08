@@ -22,4 +22,4 @@ usage:
 - SEKView+UIViewController
 - SEKUIViewController+Storyboard
 
-###update。。。
+###updating。。。
