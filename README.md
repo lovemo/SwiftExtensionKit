@@ -19,5 +19,7 @@ usage:
 - SEKView+Corner
 - SEKUIImageView+Corner
 - SEKUIImage+Extention
+- SEKView+UIViewController
+- SEKUIViewController+Storyboard
 
 ###update。。。
