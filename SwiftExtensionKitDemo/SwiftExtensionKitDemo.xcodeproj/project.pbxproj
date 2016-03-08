@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341692931C8E7C470047B11E /* SEKUIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341692921C8E7C470047B11E /* SEKUIViewController+Storyboard.swift */; };
+		341692951C8E7C780047B11E /* SEKView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341692941C8E7C780047B11E /* SEKView+UIViewController.swift */; };
 		3436E92E1C87D2E700B84254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3436E92C1C87D2E700B84254 /* Main.storyboard */; };
 		3436E9301C87D2E700B84254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3436E92F1C87D2E700B84254 /* Assets.xcassets */; };
 		3436E9331C87D2E700B84254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3436E9311C87D2E700B84254 /* LaunchScreen.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341692921C8E7C470047B11E /* SEKUIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKUIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		341692941C8E7C780047B11E /* SEKView+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SEKView+UIViewController.swift"; sourceTree = "<group>"; };
 		3436E9251C87D2E700B84254 /* SwiftExtensionKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensionKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3436E92D1C87D2E700B84254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3436E92F1C87D2E700B84254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftExtensionKitDemo/Assets.xcassets; sourceTree = "<group>"; };
@@ -117,10 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				3436E94C1C87D5EB00B84254 /* SEKView+Nib.swift */,
+				341692921C8E7C470047B11E /* SEKUIViewController+Storyboard.swift */,
 				3436E94E1C87D61300B84254 /* SEKView+Frame.swift */,
 				3436E9501C88104B00B84254 /* SEKView+Corner.swift */,
 				3436E9521C8810CD00B84254 /* SEKUIImageView+Corner.swift */,
 				3436E9541C8811BA00B84254 /* SEKUIImage+Extention.swift */,
+				341692941C8E7C780047B11E /* SEKView+UIViewController.swift */,
 			);
 			path = SwiftExtensionKit;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				3436E9411C87D35D00B84254 /* AppDelegate.swift in Sources */,
 				3436E9551C8811BA00B84254 /* SEKUIImage+Extention.swift in Sources */,
 				3436E94F1C87D61300B84254 /* SEKView+Frame.swift in Sources */,
+				341692931C8E7C470047B11E /* SEKUIViewController+Storyboard.swift in Sources */,
+				341692951C8E7C780047B11E /* SEKView+UIViewController.swift in Sources */,
 				3436E9401C87D35D00B84254 /* ViewController.swift in Sources */,
 				3436E9471C87D3A400B84254 /* SEKTestView.swift in Sources */,
 				3436E94D1C87D5EB00B84254 /* SEKView+Nib.swift in Sources */,

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'SwiftExtensionKit'
-s.version          = '0.0.1'
+s.version          = '0.0.2'
 s.summary          = 'SwiftExtensionKit is a collection of useful classes to develop Apps faster'
 s.homepage         = 'https://github.com/lovemo/SwiftExtensionKit'
 s.license               = 'MIT'
