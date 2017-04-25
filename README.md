@@ -5,15 +5,15 @@ SwiftExtensionKit - SwiftExtensionKit is a collection of useful classes to devel
 
 Welcome to join us in the maintenance of the project
 
-===
+---
 usage:
 ```
   pod 'SwiftExtensionKit'
 ```
 
-===
+---
 
-##SwiftExtensionKit
+## SwiftExtensionKit
 - SEKView+Frame
 - SEKView+Nib
 - SEKView+Corner
@@ -22,4 +22,4 @@ usage:
 - SEKView+UIViewController
 - SEKUIViewController+Storyboard
 
-###updating。。。
+### updating。。。
