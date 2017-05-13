@@ -22,4 +22,12 @@ usage:
 - SEKView+UIViewController
 - SEKUIViewController+Storyboard
 
-### updating。。。
+---
+
+### Contributing to SwiftExtensionKit
+Welcome to [report Issues](https://github.com/lovemo/SwiftExtensionKit/issues) or [pull requests](https://github.com/lovemo/SwiftExtensionKit/pulls) to SwiftExtensionKit.
+
+## License
+
+SwiftExtensionKit is released under the MIT license. See LICENSE for details.
+
